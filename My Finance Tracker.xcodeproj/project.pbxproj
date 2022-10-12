@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D653A02128F76F9E0073BC3C /* CurrencySelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D653A02028F76F9E0073BC3C /* CurrencySelectorView.swift */; };
 		D677EC1428F163AE0089BE67 /* My_Finance_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D677EC1328F163AE0089BE67 /* My_Finance_TrackerApp.swift */; };
 		D677EC1628F163AE0089BE67 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D677EC1528F163AE0089BE67 /* HomeView.swift */; };
 		D677EC1828F163AF0089BE67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D677EC1728F163AF0089BE67 /* Assets.xcassets */; };
 		D677EC1B28F163AF0089BE67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D677EC1A28F163AF0089BE67 /* Preview Assets.xcassets */; };
+		D69DBA8228F5AE9E005ABB4E /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69DBA8128F5AE9E005ABB4E /* Currency.swift */; };
 		D6F9F9F528F45F9000FAF3F7 /* AccountCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F9F9F428F45F8F00FAF3F7 /* AccountCellView.swift */; };
 		D6F9F9FE28F4DC8A00FAF3F7 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F9F9FD28F4DC8A00FAF3F7 /* Account.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D653A02028F76F9E0073BC3C /* CurrencySelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencySelectorView.swift; sourceTree = "<group>"; };
 		D677EC1028F163AE0089BE67 /* My Finance Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Finance Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D677EC1328F163AE0089BE67 /* My_Finance_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Finance_TrackerApp.swift; sourceTree = "<group>"; };
 		D677EC1528F163AE0089BE67 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D677EC1728F163AF0089BE67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D677EC1A28F163AF0089BE67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D69DBA8128F5AE9E005ABB4E /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		D6F9F9F428F45F8F00FAF3F7 /* AccountCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCellView.swift; sourceTree = "<group>"; };
 		D6F9F9FD28F4DC8A00FAF3F7 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,11 +59,11 @@
 		D677EC1228F163AE0089BE67 /* My Finance Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				D6F9FA0028F4E05B00FAF3F7 /* Resources */,
 				D6F9F9FF28F4DFD500FAF3F7 /* App */,
 				D6F9F9FA28F4DC4D00FAF3F7 /* Model */,
 				D6F9F9FB28F4DC5C00FAF3F7 /* View */,
 				D6F9F9FC28F4DC6400FAF3F7 /* ViewModel */,
+				D6F9FA0028F4E05B00FAF3F7 /* Resources */,
 				D677EC1928F163AF0089BE67 /* Preview Content */,
 			);
 			path = "My Finance Tracker";
@@ -84,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				D6F9F9F428F45F8F00FAF3F7 /* AccountCellView.swift */,
+				D653A02028F76F9E0073BC3C /* CurrencySelectorView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -92,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				D6F9F9FD28F4DC8A00FAF3F7 /* Account.swift */,
+				D69DBA8128F5AE9E005ABB4E /* Currency.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -184,8 +190,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D677EC1628F163AE0089BE67 /* HomeView.swift in Sources */,
+				D69DBA8228F5AE9E005ABB4E /* Currency.swift in Sources */,
 				D677EC1428F163AE0089BE67 /* My_Finance_TrackerApp.swift in Sources */,
 				D6F9F9F528F45F9000FAF3F7 /* AccountCellView.swift in Sources */,
+				D653A02128F76F9E0073BC3C /* CurrencySelectorView.swift in Sources */,
 				D6F9F9FE28F4DC8A00FAF3F7 /* Account.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
